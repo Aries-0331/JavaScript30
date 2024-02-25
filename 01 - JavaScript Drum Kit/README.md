@@ -1,7 +1,7 @@
 # Exercise 1: JavaScript Drum Kit
 这段代码是一个简单的 JavaScript 鼓点套件。它使用 HTML，CSS 和 JavaScript 来创建一个用户可以通过键盘进行交互的虚拟鼓套件。
 ## 效果
-[demo]()
+[demo](https://github.com/Aries-0331/JavaScript30/blob/main/01%20-%20JavaScript%20Drum%20Kit/index.html)
 
 ## 要点
 HTML 中的每个鼓点都有一个与键盘键对应的 data-key 属性，以及一个对应的音频文件。按键和音频标签都添加了属性`data-key`，用于存储对应的键码，目的是添加键盘事件监听后，触发键盘事件时即可获取事件的`keyCode`属性，然后以此操作对应按键和音频。
